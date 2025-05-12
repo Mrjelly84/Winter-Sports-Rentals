@@ -8,7 +8,7 @@
     End Sub
 
     Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
-        frmWeatherForecast.WebBrowser1.Navigate("https://www.google.com/search?q=weather&sca_esv=acc27629dfc230bb&sxsrf=AHTn8zqA1UgZ9aCrVEUak7bqxNbxUvBjjw%3A1746794926958&source=hp&ei=rvkdaPv3N--PhbIPxoW-0AI&iflsig=ACkRmUkAAAAAaB4HvpbxutH_Auu6AgDPbG767k5JbVcD&oq=wea&gs_lp=Egdnd3Mtd2l6IgN3ZWEqAggAMg8QIxiABBgnGIoFGEYYgAIyChAjGIAEGCcYigUyERAuGIAEGJECGMcBGIoFGK8BMggQABiABBiSAzILEAAYgAQYkgMYigUyCxAAGIAEGLEDGIMBMgsQABiABBixAxiDATILEAAYgAQYsQMYgwEyCBAAGIAEGLEDMgsQABiABBixAxiDAUjYK1D4CFjQDXABeACQAQCYAVmgAeMBqgEBM7gBAcgBAPgBAZgCBKAC7wGoAgrCAgcQIxgnGOoCwgILEAAYgAQYkQIYigXCAhEQLhiABBixAxjRAxiDARjHAcICDhAAGIAEGLEDGIMBGIoFwgIFEAAYgATCAg4QLhiABBixAxjRAxjHAcICCxAuGIAEGNEDGMcBmAMF8QUezZHde-Nc1ZIHATSgB5smsgcBM7gH6gE&sclient=gws-wiz")
+        frmWeatherForecast.WebBrowser1.Navigate("https://weather.metoffice.gov.uk/forecast/gctf4tb4d#?forecastChoice=weather&date=2025-05-12")
         frmWeatherForecast.Show()
     End Sub
 

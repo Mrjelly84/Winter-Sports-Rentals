@@ -26,10 +26,10 @@ Partial Class frmWeatherForecast
         Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.txtNavigateTo = New System.Windows.Forms.ToolStripTextBox()
-        Me.btnClose = New System.Windows.Forms.ToolStripButton()
-        Me.btnGo = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
+        Me.btnGo = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
+        Me.btnClose = New System.Windows.Forms.ToolStripButton()
         Me.ToolStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -57,14 +57,10 @@ Partial Class frmWeatherForecast
         Me.txtNavigateTo.Name = "txtNavigateTo"
         Me.txtNavigateTo.Size = New System.Drawing.Size(300, 25)
         '
-        'btnClose
+        'ToolStripSeparator1
         '
-        Me.btnClose.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
-        Me.btnClose.Image = CType(resources.GetObject("btnClose.Image"), System.Drawing.Image)
-        Me.btnClose.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.btnClose.Name = "btnClose"
-        Me.btnClose.Size = New System.Drawing.Size(40, 22)
-        Me.btnClose.Text = "Close"
+        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 25)
         '
         'btnGo
         '
@@ -75,15 +71,19 @@ Partial Class frmWeatherForecast
         Me.btnGo.Size = New System.Drawing.Size(26, 22)
         Me.btnGo.Text = "Go"
         '
-        'ToolStripSeparator1
-        '
-        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 25)
-        '
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
         Me.ToolStripSeparator2.Size = New System.Drawing.Size(6, 25)
+        '
+        'btnClose
+        '
+        Me.btnClose.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
+        Me.btnClose.Image = CType(resources.GetObject("btnClose.Image"), System.Drawing.Image)
+        Me.btnClose.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnClose.Name = "btnClose"
+        Me.btnClose.Size = New System.Drawing.Size(40, 22)
+        Me.btnClose.Text = "Close"
         '
         'frmWeatherForecast
         '
